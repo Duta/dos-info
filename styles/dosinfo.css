@@ -1,4 +1,4 @@
-.header {
+#header {
   padding: 10px 0;
   position: fixed;
   margin: 0;
@@ -10,9 +10,40 @@
   background: black;
 }
 
-.header > h1 {
+#header > h1 {
   font-size: 50px;
   font-family: Georgia, Times, "Times New Roman", serif;
   color: white;
   margin: 0;
+}
+
+#footer {
+  padding: 10px 0;
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+#footer .names {
+  margin: 0px auto;
+  display: table;
+}
+
+#footer p {
+  font-size: 12px;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  color: white;
+  margin: 0;
+  position: relative;
+  float: left;
+  display: table-cell;
+}
+
+#footer p:not(:first-child):before {
+  content: ', ';
 }
