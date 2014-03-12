@@ -1,3 +1,17 @@
+/* Colors */
+#header, #footer {
+  background: black;
+}
+
+#header h1, #footer p {
+  color: white;
+}
+
+#leftsidebar, #rightsidebar {
+  background: blue;
+}
+
+/* Actual styling */
 #header {
   padding: 10px 0;
   position: fixed;
@@ -6,15 +20,14 @@
   left: 0;
   right: 0;
   width: 100%;
+  height: 75px;
   text-align: center;
-  background: black;
   z-index: 99;
 }
 
-#header > h1 {
+#header h1 {
   font-size: 50px;
   font-family: Georgia, Times, "Times New Roman", serif;
-  color: white;
   margin: 0;
 }
 
@@ -24,13 +37,32 @@
   margin: 0 auto;
 }
 
+#leftsidebar, #rightsidebar {
+  width: 150px;
+  position: fixed;
+  top: 100px;
+  line-height: 16px;
+}
+
+#leftsidebar {
+  left: 50%;
+  margin-left: -425px;
+  text-align: right;
+}
+
+#rightsidebar {
+  right: 50%;
+  margin-right: -425px;
+  text-align: left;
+}
+
 #maincontent {
   position: relative;
   width: 550px;
-  background: green;
-  padding: 30px 30px 50px 30px;
+  padding: 20px 0;
   margin: 0 auto;
   margin-top: 100px;
+  background: green;
 }
 
 #footer {
@@ -42,7 +74,6 @@
   right: 0;
   width: 100%;
   text-align: center;
-  background: black;
 }
 
 #footer .names {
@@ -53,7 +84,6 @@
 #footer p {
   font-size: 12px;
   font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-  color: white;
   margin: 0;
   position: relative;
   float: left;
