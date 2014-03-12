@@ -1,4 +1,8 @@
 /* Colors */
+body {
+  background: red;
+}
+
 #header, #footer {
   background: black;
 }
@@ -64,18 +68,17 @@
   position: fixed;
   top: 100px;
   line-height: 16px;
+  text-align: center;
 }
 
 #leftsidebar {
   left: 50%;
   margin-left: -425px;
-  text-align: right;
 }
 
 #rightsidebar {
   right: 50%;
   margin-right: -425px;
-  text-align: left;
 }
 
 #maincontent {
