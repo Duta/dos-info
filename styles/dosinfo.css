@@ -81,6 +81,11 @@ body {
   margin-right: -425px;
 }
 
+.sidebarbutton {
+  height: 50px;
+  line-height: 50px;
+}
+
 #maincontent {
   position: relative;
   width: 550px;
