@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sections>
+  <section>
+    <paragraph>
+      Denial of Service attacks are mostly directed at gaming websites and servers, although companies’ websites are often targeted as well.
+    </paragraph>
+  </section>
+  <section>
+    <paragraph>
+      utube.com vs youtube.com
+      An American company Universal Tube and Rollform Equipment used the URL utube.com, but people looking for YouTube typed this URL by accident, causing unintentional DOS attacks on the company’s website. The company took legal action and now use utubeonline.com to avoid more similar attacks.
+    </paragraph>
+  </section>
+  <section>
+    <paragraph>
+      DerpTrolling
+      DerpTrolling are a recent hacker group that mainly use Twitter to announce their DDOS attacks, seemingly for “internet fame”. They claim to have been operating since 2011 but rose to prominence when they targeted the popular online game League of Legends and publicised live using a Skype call to a popular streamer. They then proceeded to take down the gaming servers of Dota2 and Club Penguin when “PhantomL0rd” switched to playing to them.
+    </paragraph>
+  </section>
+  <section>
+    <paragraph>
+      Bitly
+      Bitly, a site which offers shortened URLs, was taken down by a DDOS attack in February 2014. Users reported that they couldn’t click on links to URLs shortened by the site.
+    </paragraph>
+  </section>
+</sections>

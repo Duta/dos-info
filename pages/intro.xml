@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sections>
-    <section>
-        <paragraph>
-            Some intro text here, I don't know.
-        </paragraph>
-        <paragraph>
-            No really, I can't think of anything.
-        </paragraph>
-    </section>
-    <section>
-        <paragraph>
-            Blah blah blah
-        </paragraph>
-    </section>
+  <section>
+    <paragraph>
+      A Denial of Service (or DOS) attack is an attempt to make a device or resource on a network unavailable to its users. This normally involves disrupting access to resources on the Internet. DOS attacks are usually the result of one person or system's actions.
+    </paragraph>
+  </section>
+  <section>
+    <paragraph>
+      A Distributed Denial of Service (or DDOS) attack is a special type of Denial of Service attack that is sent by more than one person or system. Often, botnets are used to conduct the attack.
+      ** MORE ON BOTNETS **
+    </paragraph>
+  </section>
 </sections>
