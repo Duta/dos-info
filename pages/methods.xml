@@ -3,6 +3,8 @@
   <section>
     <paragraph>
       Internet Control Message Protocol (ICMP) flood
+    </paragraph>
+    <paragraph>
       There are many different types of ICMP floods, the first of which is called a Smurf Attack. A Smurf Attack relies on misconfigured network devices that allow packets to be sent to every device on the network via the network’s broadcast address. It uses up bandwidth and stops proper packets from reaching their destination, making the network into a Smurf Amplifier.
     </paragraph>
     <paragraph>
@@ -15,42 +17,56 @@
   <section>
     <paragraph>
       Network Time Protocol (NTP) Amplification
+    </paragraph>
+    <paragraph>
       This is a type of DDOS attack that exploits weaknesses in the Network Time Protocol, which synchronizes the computer’s clock. The attack sends spoof packets requesting an amplified amount of data to be sent to the target computer via NTP with the added benefit that the source of the attack is obscured. This method has only recently been brought to light by recent extremely large attacks.
     </paragraph>
   </section>
   <section>
     <paragraph>
       (S)SYN Flood
+    </paragraph>
+    <paragraph>
       In this type of attack, the host sends lots of TCP/SYN packets with fake sender addresses. The target handles the packets like a connection request and sends an Acknowledge to the host. No responses ever come from the host, and all of the target server’s available connections are used up sending Acknowledges that are never responded to.
     </paragraph>
   </section>
   <section>
     <paragraph>
       Teardrop attacks
+    </paragraph>
+    <paragraph>
       The host sends invalid, or mangled, packets that crash the Operating System of the target due to there being a bug in the TCP/IP re-assembly code. Windows 3.1 was particularly vulnerable to this.
     </paragraph>
   </section>
   <section>
     <paragraph>
       Peer-to-peer attacks
+    </paragraph>
+    <paragraph>
       This attack is often used alongside Peer-to-Peer sites; it makes the site’s clients disconnect from the site they are using and connect to the targeted site, which blocks the server of the target.
     </paragraph>
   </section>
   <section>
     <paragraph>
       Permanent denial-of-service attacks
+    </paragraph>
+    <paragraph>
       Also known as phlashing, it exploits security flaws that allow remote hardware management on the target network. It then replaces devices’ firmware with a corrupt version, meaning that the devices need reinstalling or replacing.
     </paragraph>
   </section>
   <section>
     <paragraph>
       Nuke
+    </paragraph>
+    <paragraph>
       Fragmented or invalid ICMP packets are repeatedly sent to the target, which slow down or even stop it from running. A prominent example is the WinNuke, which affected Windows 95 by causing Blue Screen of Death errors.
     </paragraph>
   </section>
   <section>
     <paragraph>
       Unintentional Denial of Service
+    </paragraph>
+    <paragraph>
       This can occur for a number of reasons. Sometimes there is high traffic to a website if it contains information that many people want to know. There is also a phenomena called the “Reddit hug of death”, which causes high traffic to certain sites that have been linked from Reddit.
     </paragraph>
   </section>
