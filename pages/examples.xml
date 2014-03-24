@@ -10,7 +10,10 @@
       utube.com vs youtube.com
     </paragraph>
     <paragraph>
-      An American company Universal Tube and Rollform Equipment used the URL utube.com, but people looking for YouTube typed this URL by accident, causing unintentional DOS attacks on the company’s website. The company took legal action and now use utubeonline.com to avoid more similar attacks.
+      An American company Universal Tube and Rollform Equipment used the URL utube.com, but people looking for YouTube typed this URL by accident, causing unintentional DOS attacks on the company’s website. The company reported that site traffic jumped from 1,500 to 70,000 visits daily, and costs increased from $100 to $2,500 per month. 
+    </paragraph>
+    <paragraph>
+      The company took legal action and tried to get YouTube to change their name, but instead use utubeonline.com to avoid more similar attacks. Their original url utube.com is loaded with advertisements and reportedly makes upwards of $1,000 per day.
     </paragraph>
   </section>
   <section>
@@ -18,7 +21,10 @@
       DerpTrolling
     </paragraph>
     <paragraph>
-      DerpTrolling are a recent hacker group that mainly use Twitter to announce their DDOS attacks, seemingly for “internet fame”. They claim to have been operating since 2011 but rose to prominence when they targeted the popular online game League of Legends and publicised live using a Skype call to a popular streamer. They then proceeded to take down the gaming servers of Dota2 and Club Penguin when “PhantomL0rd” switched to playing to them.
+      DerpTrolling are a recent hacker group that mainly use Twitter to announce their DDOS attacks (under the name @DerpTrolling), seemingly for “internet fame”. Reportedly, they use NTP amplification attacks. They claim to have been operating since 2011 but rose to prominence when they targeted the popular online game League of Legends and publicised live using a Skype call to a popular streamer "PhantomL0rd". 
+    </paragraph>
+    <paragraph>
+      They contacted PhantomL0rd who was streaming to tens of thousands of people at the time and said that they would take down the servers if he lost his game. He did lose, and they took down League of Legends, as well as Dota2 and Club Penguin when he changed games. The publicity stunt worked with stream viewers surpassing 10,000 before the group released PhantomL0rd's private information to the public, leading to a member of the public calling the police to his house for a hostage situation. His house was stormed by armed police and he was arrested temporarily.
     </paragraph>
   </section>
   <section>
@@ -34,7 +40,7 @@
       Anonymous
     </paragraph>
     <paragraph>
-      Anonymous are a "Hacktivist" group that was started on the messageboard 4chan in 2003. Many people know them for their Guy Fawkes masks, which members wear when protesting in public. Their actions to date include participating in 2011's Occupy Wall Street protest, and 
+      Anonymous are a "Hacktivist" group that was started on the messageboard 4chan in 2003. Many people know them for their Guy Fawkes masks, which members wear when protesting in public. Their actions to date include participating in 2011's Occupy Wall Street protest, and publicly supporting WikiLeaks.
     </paragraph>
     <paragraph>
      They also launched a DDOS attack on the Westboro Baptist Church's website and eventually took it down after the Church announced plans to picket the funerals of the victims of the Sandy Hook Elementary School; in addition to this, Anonymous published names and contact information for many members of the Church.
@@ -42,5 +48,16 @@
    <paragraph>
       LulzSec (short for Lulz Security) is a small branch of Anonymous that are responsible for several very high profile attacks, including taking the CIA's website down via a large DDOS attack, and leaking details of Sony customers' usernames and passwords in retaliation for Sony attempting to stop users from hacking PlayStation consoles.
    </paragraph>
+  </section>
+  <section>
+    <paragraph>
+      CloudFlare
+    </paragraph>
+    <paragraph>
+      A rather ironic and amusing example, Cloudflare is a service for websites that, amongst other things, provides DDOS protection. They were hit by an NTP Amplification attack in February 2014 that turned into the biggest attack ever. The original attack was only around 2Gbps, but it was amplified over 200 times its original size, resulting in it reaching 400Gbps. The attack used 4,529 NTP servers on 1,298 networks, each sending an average of 87mbps.
+    </paragraph>
+    <paragraph>
+      The attack was aimed at one of CloudFlare’s customers but had to go through CloudFlare’s datacentres first; this was the attack that really highlighted the vulnerabilities that could be exploited in NTP. DerpTrolling claimed responsibility on Twitter and admitted the target as being League of Legends servers once again. Though CloudFlare claimed they had prevented the attack, the servers did in fact go down.
+    </paragraph>
   </section>
 </sections>
