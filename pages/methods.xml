@@ -5,13 +5,10 @@
       Internet Control Message Protocol (ICMP) flood
     </paragraph>
     <paragraph>
-      There are many different types of ICMP floods, the first of which is called a Smurf Attack. A Smurf Attack relies on misconfigured network devices that allow packets to be sent to every device on the network via the network’s broadcast address. It uses up bandwidth and stops proper packets from reaching their destination, making the network into a Smurf Amplifier.
+      There are many different types of ICMP floods, the first of which is called a Smurf Attack. A Smurf Attack relies on misconfigured network devices that allow packets to be sent to every device on the network via the network’s broadcast address. It uses up bandwidth and stops proper packets from reaching their destination, making the network into a Smurf Amplifier. The name “Smurf Attack” comes from the name of the original code “smurf.c”, which was released in 1997 by user TFreak.
     </paragraph>
     <paragraph>
-      Another type of ICMP flood is a Ping Flood, where excessive amounts of ping packets are sent, rendering the system unusable for packets that need to get through.
-    </paragraph>
-    <paragraph>
-      A Ping of Death also falls under this category; this attack sends broken packets, making the system crash.
+      Another type of ICMP flood is a Ping of Death, which sends broken packets, making the system crash. Recently the attack has become more widespread and has transformed into what is called Ping Flooding, where the target is sent so many ping packets that normal pings cannot get through.
     </paragraph>
   </section>
   <section>
@@ -43,7 +40,7 @@
       Peer-to-peer attacks
     </paragraph>
     <paragraph>
-      This attack is often used alongside Peer-to-Peer sites; it makes the site’s clients disconnect from the site they are using and connect to the targeted site, which blocks the server of the target.
+      This attack is often used alongside Peer-to-Peer sites; it makes the site’s clients disconnect from the site they are using and connect to the targeted site, which blocks the server of the target. Recently, the file sharing site BitTorrent has been used to orchestrate peer-to-peer attacks, with some referring to the phenomenon as “BotTorrent”.
     </paragraph>
   </section>
   <section>
@@ -51,7 +48,7 @@
       Permanent denial-of-service attacks
     </paragraph>
     <paragraph>
-      Also known as phlashing, it exploits security flaws that allow remote hardware management on the target network. It then replaces devices’ firmware with a corrupt version, meaning that the devices need reinstalling or replacing.
+      Also known as phlashing, it exploits security flaws that allow remote hardware management on the target network. It then replaces devices’ firmware with a corrupt version, meaning that the devices need reinstalling or replacing. Most of the time, the devices are so corrupted that they need replacing, at great cost to the company. Phlashing was first demonstrated by Hewlett Packard’s Head of System Security when he demonstrated exploiting a weakness in a network hardware device that was eventually rendered unusable.
     </paragraph>
   </section>
   <section>
@@ -61,6 +58,9 @@
     <paragraph>
       Fragmented or invalid ICMP packets are repeatedly sent to the target, which slow down or even stop it from running. A prominent example is the WinNuke, which affected Windows 95 by causing Blue Screen of Death errors.
     </paragraph>
+    <paragraph>
+      The WinNuke attack did not damage any data on the user’s computer, but did cause the user to lose any unsaved data. A person using the screen name “_eci” published his source code for the Nuke (written in C); because the source code was freely available, Microsoft had to publish several patches that protected the user from the attack.
+    </paragraph>
   </section>
   <section>
     <paragraph>
@@ -68,6 +68,17 @@
     </paragraph>
     <paragraph>
       This can occur for a number of reasons. Sometimes there is high traffic to a website if it contains information that many people want to know. There is also a phenomena called the “Reddit hug of death”, which causes high traffic to certain sites that have been linked from Reddit.
+    </paragraph>
+    <paragraph>
+      Phenomena such as the Reddit Hug come under the category of a “Slashdot effect”; the name originates from the technology news site Slashdot that posted links to other sites, causing the sites to be overwhelmed with traffic. Google Doodles also cause high traffic to sites linking to the topic.
+    </paragraph>
+  </section>
+  <section>
+    <paragraph>
+      R-U-Dead-Yet?
+    </paragraph>
+    <paragraph>
+      Also known as RUDY, and named after the Children of Bodom album, “Are You Dead Yet?”, this type of attack halts web sessions by sending never ending HTTP POST transmissions. The target server hangs whilst waiting for the rest of the POST transmission and eventually the server’s connection table is exhausted.
     </paragraph>
   </section>
 </sections>
