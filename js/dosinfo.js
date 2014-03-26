@@ -1,3 +1,7 @@
+function emptyTag(type) {
+    return '<' + type + '></' + type + '>';
+}
+
 function loadXML(file, oncomplete) {
     $.ajax({
         url: 'pages/' + file,
@@ -6,8 +10,10 @@ function loadXML(file, oncomplete) {
         success: function(xml) {
             $(xml).find('section').each(function() {
                 var elem = $('<div class="section"></div>');
-                $(this).find('paragraph').each(function() {
-                    $('<p></p>').html($(this).text()).appendTo(elem);
+                $(this).children().each(function() {
+                    console.log($(this).prop('tagName'));
+                    var isHeader = $(this).prop('tagName').toLowerCase() === 'header';
+                    $(emptyTag(isHeader ? 'h1' : 'p')).html($(this).text()).appendTo(elem);
                 });
                 elem.appendTo('#maincontent');
             });

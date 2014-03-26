@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sections>
   <section>
-    <paragraph>
+    <header>
       Firewalls
-    </paragraph>
+    </header>
     <paragraph>
       Firewalls permit the user to allow or block IP addresses, ports and protocols on the network. This means that they can stop traffic from a DOS attack from accessing their server. However, using firewalls can be risky since although malicious traffic is prevented from accessing the target, legitimate traffic is also blocked, meaning that nobody has access.
     </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       Blackholing
-    </paragraph>
+    </header>
     <paragraph>
       Blackholing, or Sinkholing, is a service offered by Internet Service Providers (ISPs). If a network is under attack, the ISP can "null-route" all of the traffic destined for the site to a non-existent server, or a "blackhole" (hence the name Blackholing). Whilst this method has the advantage that other customers are also protected, it does mean that no traffic at all can access the network, which can be problematic if the company behind the network relies on it to make money. For example, an online shopping service would lose out on all sales that could have been made during the period where no customers could access the site.
     </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       Clean Pipes
-    </paragraph>
+    </header>
     <paragraph>
       Using the Clean Pipes method, all network traffic is routed to a "cleaning centre" before it is granted access. The cleaning process separates the good traffic from the bad traffic and only allows good traffic to progress further; the bad traffic is blocked. This method is considerably better than many others as it does not impair the functionality of the network by blocking all traffic: only malicious traffic is refused access.
     </paragraph>
