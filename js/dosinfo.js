@@ -8,15 +8,27 @@ function loadXML(file, oncomplete) {
         type: 'GET',
         dataType: 'xml',
         success: function(xml) {
+            var headerLinks = $('#rightsidebar');
+            headerLinks.children().remove();
             $('#maincontent').children().remove();
             $(xml).find('section').each(function() {
                 var elem = $('<div class="section"></div>');
                 $(this).children().each(function() {
                     var tagName = $(this).prop('tagName');
                     var isHeader = tagName.toLowerCase() === 'header';
+                    var text = $(this).text().trim();
                     $(emptyTag(isHeader ? 'h1' : 'p'))
-                        .html($(this).text())
+                        .html(text)
                         .appendTo(elem);
+                    if(isHeader) {
+                        $(emptyTag('div'))
+                            .click(function() {
+                                alert('TODO: Load ' + text);
+                            })
+                            .attr('class', 'sidebarbutton')
+                            .html(text)
+                            .appendTo(headerLinks);
+                    }
                 });
                 elem.appendTo('#maincontent');
             });
@@ -31,7 +43,7 @@ function loadXML(file, oncomplete) {
 }
 
 function loadPage(page, oncomplete) {
-    loadXML(page + '.xml', oncomplete);
+    loadXML(page.toLowerCase() + '.xml', oncomplete);
 }
 
 $(function() {
