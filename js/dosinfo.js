@@ -11,9 +11,11 @@ function loadXML(file, oncomplete) {
             $(xml).find('section').each(function() {
                 var elem = $('<div class="section"></div>');
                 $(this).children().each(function() {
-                    console.log($(this).prop('tagName'));
-                    var isHeader = $(this).prop('tagName').toLowerCase() === 'header';
-                    $(emptyTag(isHeader ? 'h1' : 'p')).html($(this).text()).appendTo(elem);
+                    var tagName = $(this).prop('tagName');
+                    var isHeader = tagName.toLowerCase() === 'header';
+                    $(emptyTag(isHeader ? 'h1' : 'p'))
+                        .html($(this).text())
+                        .appendTo(elem);
                 });
                 elem.appendTo('#maincontent');
             });
