@@ -29,4 +29,7 @@ $(function() {
             });
         });
     });
+    new Konami(function() {
+        $('link[href="styles/dosinfo.css"]').attr('href','styles/dosinfo_horrible.css');
+    });
 });

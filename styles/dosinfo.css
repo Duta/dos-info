@@ -25,6 +25,10 @@ body {
   color: white;
 }
 
+.sidebarbutton:hover {
+  background: cyan;
+}
+
 /* Fonts */
 #header h1 {
   font-size: 50px;
