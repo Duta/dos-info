@@ -1,7 +1,7 @@
 /* Colors */
 body {
   background: #1C1C1C;
-  background-image:url('horrible_background.png');
+  background-image: url('horrible_background.png');
 }
 
 #header, #footer {
@@ -23,10 +23,13 @@ body {
 #leftsidebar, #rightsidebar {
   background: purple;
   color: yellow;
-  font-family: "Comic Sans MS";
 }
 
 /* Fonts */
+#leftsidebar, #rightsidebar {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 #header h1 {
   font-size: 50px;
   font-family: "Comic Sans MS", Georgia, Times, "Times New Roman", serif;
@@ -34,7 +37,7 @@ body {
 
 .section {
   font-size: 16px;
-  font-family: "Comic Sans MS", "Arial Narrow", Arial, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #footer p {
@@ -100,6 +103,10 @@ body {
   margin: 0px 4px;
   padding: 0 5px;
   text-align: justify;
+}
+
+.section h1 {
+  text-align: center;
 }
 
 #footer {
