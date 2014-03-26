@@ -8,6 +8,7 @@ function loadXML(file, oncomplete) {
         type: 'GET',
         dataType: 'xml',
         success: function(xml) {
+            $('#maincontent').children().remove();
             $(xml).find('section').each(function() {
                 var elem = $('<div class="section"></div>');
                 $(this).children().each(function() {
@@ -41,7 +42,6 @@ $(function() {
     $('#leftsidebar .sidebarbutton').click(function() {
         var file = this.id;
         $('#wrapper').fadeOut(500, function() {
-            $('#maincontent').children().remove();
             loadPage(file, function() {
                 $('#wrapper').fadeIn(500);
             });
