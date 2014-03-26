@@ -6,39 +6,39 @@
     </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       utube.com vs youtube.com
-    </paragraph>
+    </header>
     <paragraph>
-      An American company Universal Tube and Rollform Equipment used the URL utube.com, but people looking for YouTube typed this URL by accident, causing unintentional DOS attacks on the company’s website. They registered the domain in 1996, but by 2006 their servers crashed due to the high amount of traffic they were receiving. The company reported that site traffic jumped from 1,500 to 70,000 visits daily, and costs increased from $100 to $2,500 per month. 
+      An American company Universal Tube and Rollform Equipment used the URL utube.com, but people looking for YouTube typed this URL by accident, causing unintentional DOS attacks on the company’s website. They registered the domain in 1996, but by 2006 their servers crashed due to the high amount of traffic they were receiving. The company reported that site traffic jumped from 1,500 to 70,000 visits daily, and costs increased from $100 to $2,500 per month.
     </paragraph>
     <paragraph>
       The company took legal action and tried to get YouTube to change their name, but instead use utubeonline.com to avoid more similar attacks. Their original url utube.com is loaded with advertisements and reportedly makes upwards of $1,000 per day.
     </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       DerpTrolling
-    </paragraph>
+    </header>
     <paragraph>
-      DerpTrolling are a recent hacker group that mainly use Twitter to announce their DDOS attacks (under the name @DerpTrolling), seemingly for “internet fame”. Reportedly, they use NTP amplification attacks. They claim to have been operating since 2011 but rose to prominence when they targeted the popular online game League of Legends and publicised live using a Skype call to a popular streamer "PhantomL0rd". 
+      DerpTrolling are a recent hacker group that mainly use Twitter to announce their DDOS attacks (under the name @DerpTrolling), seemingly for “internet fame”. Reportedly, they use NTP amplification attacks. They claim to have been operating since 2011 but rose to prominence when they targeted the popular online game League of Legends and publicised live using a Skype call to a popular streamer "PhantomL0rd".
     </paragraph>
     <paragraph>
       They contacted PhantomL0rd who was streaming to tens of thousands of people at the time and said that they would take down the servers if he lost his game. He did lose, and they took down League of Legends, as well as Dota2 and Club Penguin when he changed games. The publicity stunt worked with stream viewers surpassing 10,000 before the group released PhantomL0rd's private information to the public, leading to a member of the public calling the police to his house for a hostage situation. His house was stormed by armed police and he was arrested temporarily.
     </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       Bitly
-    </paragraph>
+    </header>
     <paragraph>
       Bitly, a site which offers shortened URLs, was taken down by a DDOS attack in February 2014. Users reported that they couldn’t click on links to URLs shortened by the site.
     </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       Anonymous
-    </paragraph>
+    </header>
     <paragraph>
       Anonymous are a "Hacktivist" group that was started on the messageboard 4chan in 2003. Many people know them for their Guy Fawkes masks, which members wear when protesting in public. Their actions to date include participating in 2011's Occupy Wall Street protest, and publicly supporting WikiLeaks.
     </paragraph>
@@ -50,9 +50,9 @@
    </paragraph>
   </section>
   <section>
-    <paragraph>
+    <header>
       CloudFlare
-    </paragraph>
+    </header>
     <paragraph>
       A rather ironic and amusing example, Cloudflare is a service for websites that, amongst other things, provides DDOS protection. They were hit by an NTP Amplification attack in February 2014 that turned into the biggest attack ever. The original attack was only around 2Gbps, but it was amplified over 200 times its original size, resulting in it reaching 400Gbps. The attack used 4,529 NTP servers on 1,298 networks, each sending an average of 87mbps.
     </paragraph>
