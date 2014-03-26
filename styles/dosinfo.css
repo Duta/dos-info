@@ -27,6 +27,7 @@ body {
 
 .sidebarbutton:hover {
   background: cyan;
+  color: #2C2C2C;
 }
 
 /* Fonts */
