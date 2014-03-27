@@ -5,8 +5,13 @@ body {
   background-attachment: fixed;
 }
 
-#header, #footer {
-  background: black;
+#header {
+ background: black;
+}
+
+#footer {
+ /* background: black;*/
+ background-image:url('gfxAssets/footerbg.png')
 }
 
 #footer p {
@@ -94,7 +99,7 @@ body {
 
 .sidebarbutton {
   line-height: 20px;
-  padding: 8px 0;
+  padding: 8px 2px;
   cursor: pointer;
 }
 
