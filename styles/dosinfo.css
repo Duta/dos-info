@@ -2,6 +2,7 @@
 body {
   background: #1C1C1C;
   background-image:url('background.jpg');
+  background-attachment: fixed;
 }
 
 #header, #footer {
@@ -13,25 +14,29 @@ body {
 }
 
 #maincontent {
-  background: #333333;
+ /* background: #333333;*/
+ background-image:url('gfxAssets/contentbg.png')
 }
 
 .section {
-  background: #999999;
+ /* background: #999999;*/
 }
 
 #leftsidebar, #rightsidebar {
-  background: #2C2C2C;
-  color: white;
+  /*background: #2C2C2C;*/
+ background-image:url('gfxAssets/buttonup.png');
+ /* color: white;*/
 }
 
 .sidebarbutton:hover {
-  background: cyan;
+  background-image:url('gfxAssets/buttonover.png');
+  /*background: cyan;*/
   color: #2C2C2C;
 }
 
 .sidebarbutton:active {
-  background: white;
+  background-image:url('gfxAssets/buttonclicked.png');
+  /*background: white;*/
 }
 
 /* Fonts */
@@ -100,9 +105,10 @@ body {
 }
 
 .section {
-  margin: 0px 4px;
+  margin: 0px 20px;
   padding: 0 5px;
   text-align: justify;
+  width: 520px;
 }
 
 .section h1 {
@@ -110,7 +116,7 @@ body {
 }
 
 #maincontent, #footer {
-  width: 600px;
+  width: 580px;
 }
 
 #footer {
