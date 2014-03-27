@@ -64,7 +64,7 @@ body {
 }
 
 .wrapper {
-  width: 600px;
+  width: 700px;
   position: relative;
   margin: 0 auto;
 }
@@ -79,12 +79,12 @@ body {
 
 #leftsidebar {
   left: 50%;
-  margin-left: -455px;
+  margin-left: -480px;
 }
 
 #rightsidebar {
   right: 50%;
-  margin-right: -455px;
+  margin-right: -480px;
 }
 
 .sidebarbutton {
@@ -95,7 +95,6 @@ body {
 
 #maincontent {
 	position: relative;
-	width: 550px;
 	margin: 0 auto;
 	margin-top: 100px;
 }
@@ -110,9 +109,12 @@ body {
   text-align: center;
 }
 
+#maincontent, #footer {
+  width: 600px;
+}
+
 #footer {
   position: relative;
-  width: 550px;
   margin: 0 auto;
   margin-top: -16px;
   padding: 10px 0;
