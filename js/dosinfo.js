@@ -45,6 +45,18 @@ function loadPage(page, oncomplete) {
     loadXML(page.toLowerCase() + '.xml', oncomplete);
 }
 
+function changeImage() {
+    var i = 0;       
+    setInterval(function() {
+        var pics = ["styles/horrible_banner_1.png", "styles/horrible_banner_2.png", "styles/horrible_banner_3.png", "styles/horrible_banner_4.png"];
+        $('img[alt="Denial of Service Attacks"]').attr('src', pics[i]);
+        i++;
+        while(i > 3) {
+            i = i - 4;
+        }
+    }, 250)
+}
+
 $(function() {
     $('#wrapper').hide();
     loadPage('intro', function() {
@@ -60,7 +72,8 @@ $(function() {
     });
     new Konami(function() {
         $('link[href="styles/dosinfo.css"]').attr('href','styles/dosinfo_horrible.css');
-        $('img[src="styles/gfxAssets/DoSbanner.png"]').attr('src','styles/horrible_banner.png');
+        $('img[src="styles/gfxAssets/DoSbanner.png"]').attr('src','styles/horrible_banner_4.png');
         $('img[src="styles/gfxAssets/footer.png"]').attr('src','styles/horrible_footer.png');
+        changeImage();
     });
 });
