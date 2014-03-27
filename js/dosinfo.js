@@ -22,8 +22,8 @@ function loadXML(file, oncomplete) {
                         .appendTo(elem);
                     if(isHeader) {
                         $(emptyTag('div'))
-                            .click(function() {
-                                alert('TODO: Load ' + text);
+                            .click(function() {//in an ideal world, this should work :(
+								elem.scrollIntoView();
                             })
                             .attr('class', 'sidebarbutton')
                             .html(text)
