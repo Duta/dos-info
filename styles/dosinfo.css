@@ -97,7 +97,8 @@ body {
 }
 
 .sidebarbutton {
-  line-height: 30px;
+  line-height: 20px;
+  padding: 8px 0;
   cursor: pointer;
 }
 
