@@ -17,13 +17,12 @@ function loadXML(file, oncomplete) {
                     var tagName = $(this).prop('tagName');
                     var isHeader = tagName.toLowerCase() === 'header';
                     var text = $(this).text().trim();
-                    $(emptyTag(isHeader ? 'h1' : 'p'))
-                        .html(text)
-                        .appendTo(elem);
+                    var domItem = $(emptyTag(isHeader ? 'h1' : 'p'));
+                    domItem.html(text).appendTo(elem);
                     if(isHeader) {
                         $(emptyTag('div'))
-                            .click(function() {//in an ideal world, this should work :(
-								elem.scrollIntoView();
+                            .click(function() {
+                                $.scrollTo($(domItem).offset().top - 100, 'fast');
                             })
                             .attr('class', 'sidebarbutton')
                             .html(text)
