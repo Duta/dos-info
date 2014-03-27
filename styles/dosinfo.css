@@ -8,12 +8,12 @@ body {
   background: black;
 }
 
-#header h1, #footer p {
+#footer p {
   color: white;
 }
 
 #maincontent {
-  background: green;
+  background: #333333;
 }
 
 .section {
@@ -35,11 +35,6 @@ body {
 }
 
 /* Fonts */
-#header h1 {
-  font-size: 50px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-}
-
 .section {
   font-size: 16px;
   font-family: "Arial Narrow", Arial, sans-serif;
@@ -68,10 +63,6 @@ body {
   z-index: 99;
 }
 
-#header h1 {
-  margin: 0;
-}
-
 .wrapper {
   width: 600px;
   position: relative;
@@ -79,7 +70,7 @@ body {
 }
 
 #leftsidebar, #rightsidebar {
-  width: 150px;
+  width: 180px;
   position: fixed;
   top: 100px;
   line-height: 16px;
@@ -88,12 +79,12 @@ body {
 
 #leftsidebar {
   left: 50%;
-  margin-left: -425px;
+  margin-left: -455px;
 }
 
 #rightsidebar {
   right: 50%;
-  margin-right: -425px;
+  margin-right: -455px;
 }
 
 .sidebarbutton {
@@ -107,7 +98,6 @@ body {
 	width: 550px;
 	margin: 0 auto;
 	margin-top: 100px;
-	background-color: #333333;
 }
 
 .section {
