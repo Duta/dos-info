@@ -1,6 +1,6 @@
 /* Colors */
 body {
-  background: #ffffff;
+  background: #1C1C1C;
   background-image:url('background.jpg');
 }
 
@@ -13,22 +13,21 @@ body {
 }
 
 #maincontent {
-  /*background: green;*/
-  background-image:url('gfxAssets/contentbg.png');
+  background: green;
 }
 
 .section {
-  /*background: #999999;*/
+  background: #999999;
 }
 
 #leftsidebar, #rightsidebar {
-  /*background: #2C2C2C;*/
-  /*color: white;*/
+  background: #2C2C2C;
+  color: white;
 }
 
 .sidebarbutton:hover {
-  /*background: cyan;*/
-  /*color: #2C2C2C;*/
+  background: cyan;
+  color: #2C2C2C;
 }
 
 .sidebarbutton:active {
@@ -80,7 +79,7 @@ body {
 }
 
 #leftsidebar, #rightsidebar {
-  width: 180px;
+  width: 150px;
   position: fixed;
   top: 100px;
   line-height: 16px;
@@ -104,10 +103,10 @@ body {
 
 #maincontent {
 	position: relative;
-	width: 580px;
+	width: 550px;
 	margin: 0 auto;
 	margin-top: 100px;
-	/*background-color: #333333;*/
+	background-color: #333333;
 }
 
 .section {
