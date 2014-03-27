@@ -8,7 +8,9 @@
   <section>
     <paragraph>
       A Distributed Denial of Service (or DDOS) attack is a special type of Denial of Service attack that is sent by more than one person or system. Often, botnets are used to conduct the attack.
-      ** MORE ON BOTNETS **
+    </paragraph>
+    <paragraph>
+      The term "botnet" comes from combining the words "robot" and "network", and refers to the use of several programs connected to each other via the Internet to perform tasks. They are most commonly used to conduct Distributed Denial of Service attacks.
     </paragraph>
   </section>
 </sections>
