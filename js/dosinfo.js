@@ -61,5 +61,7 @@ $(function() {
     });
     new Konami(function() {
         $('link[href="styles/dosinfo.css"]').attr('href','styles/dosinfo_horrible.css');
+        $('img[src="styles/gfxAssets/DoSbanner.png"]').attr('src','styles/horrible_banner.png');
+        $('img[src="styles/gfxAssets/footer.png"]').attr('src','styles/horrible_footer.png');
     });
 });
