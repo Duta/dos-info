@@ -75,5 +75,7 @@ $(function() {
         $('img[src="styles/gfxAssets/DoSbanner.png"]').attr('src','styles/horrible_banner_4.png');
         $('img[src="styles/gfxAssets/footer.png"]').attr('src','styles/horrible_footer.png');
         changeImage();
+        var audio = new Audio('styles/crit.mp3');
+        audio.play();
     });
 });
